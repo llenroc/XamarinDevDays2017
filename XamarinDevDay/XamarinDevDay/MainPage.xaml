@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinDevDay"
+             x:Class="XamarinDevDay.MainPage">
+    <StackLayout>
+        <Label Text="Indique su nombre" />
+        <Entry x:Name="texto1"  Placeholder="hola" />
+
+        <Switch x:Name="switch1"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+
+        <Button Text="Continuar"
+                x:Name="boton1">
+            
+        </Button>
+    </StackLayout>
+</ContentPage>
