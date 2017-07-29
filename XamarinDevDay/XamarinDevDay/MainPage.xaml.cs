@@ -16,6 +16,7 @@ namespace XamarinDevDay
             boton1.Clicked += (s, e) => Continuar();
 		}
 
+        // https://tinyurl.com/ybrsycd3
         private async void Continuar()
         {
             if (switch1.IsToggled)
